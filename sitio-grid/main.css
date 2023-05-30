@@ -1,0 +1,29 @@
+:root {
+	--rojo: red;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+.contenedor{
+	width: 90%;
+	background-color: lightgray;
+	display: grid;
+	grid-template-areas:'nav nav'
+						'cabecera cabecera'
+						'articulo barra-lateral'
+						'pie pie';
+}						 
+
+.contenedor > .nav{
+	padding: 1em;
+	background-color: antiquewhite;
+	justify-self: space-between;
+}
+
+.contenedor > .nav > nav > a{
+	text-decoration: none;
+}
